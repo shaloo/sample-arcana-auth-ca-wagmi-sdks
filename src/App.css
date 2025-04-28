@@ -60,6 +60,8 @@
   border: 1px solid var(--highlight-color, #eaeaea); /* Fallback to white */
   padding: 0.2vw;;
   box-sizing: border-box; /* Include padding/border in width */
+  border-radius: 7px;
+  margin: 20px;
 }
 
 .arcana-color {

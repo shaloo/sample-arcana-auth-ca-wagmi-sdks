@@ -145,7 +145,7 @@ function App() {
 
   const CAWagmiSection = () => (
     <div className="app-card">
-      <h1>Arcana + Wagmi + Vite + React </h1>
+      <h1>Arcana CA + Wagmi + Vite + React </h1>
       <a href="https://arcana.network" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/82495837" className="logo" alt="Arcana logo" /></a> 
       <div className="card">
