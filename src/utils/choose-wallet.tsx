@@ -1,9 +1,5 @@
 import * as React from "react";
 import { Connector, useConnect } from "wagmi";
-import { http, createConfig } from 'wagmi'
-import { mainnet, sepolia } from 'wagmi/chains'
-import { metaMaskWallet, injected, walletConnect } from 'wagmi/connectors'
-
 import '../App.css'
 
 export function ShowWalletOptions() {
