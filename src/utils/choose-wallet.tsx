@@ -1,10 +1,15 @@
 import * as React from "react";
 import { Connector, useConnect } from "wagmi";
+import { http, createConfig } from 'wagmi'
+import { mainnet, sepolia } from 'wagmi/chains'
+import { metaMaskWallet, injected, walletConnect } from 'wagmi/connectors'
+
 import '../App.css'
 
 export function ShowWalletOptions() {
   const { connectors, connect } = useConnect();
   console.log({ connectors });
+
   return (
     <>
       <h3 className="text-center mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl dark:text-white">
