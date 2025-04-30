@@ -1,4 +1,6 @@
 #root {
+  font-family: 'Manrope', Arial, sans-serif;
+  font-weight: 200;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
