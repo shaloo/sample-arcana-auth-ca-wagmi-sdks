@@ -75,7 +75,10 @@ function App() {
       <a href="https://react.dev" target="_blank">
         <img src={reactLogo} className="logo react" alt="React logo" />
       </a> 
-      <h1>Vite + React </h1>
+      <h3>Vite + React </h3>
+      <div className="card">
+        <p>Vanilla Vite + React Counter</p>
+      </div>  
         <div className="card">
           <button className="app-button" onClick={() => setCount((count) => count + 1)}>
             count is {count}
@@ -96,8 +99,11 @@ function App() {
         <a href="https://wagmi.sh" target="_blank">
           <img src="https://raw.githubusercontent.com/wevm/wagmi/refs/heads/main/site/public/logo-light.svg" className="logo" alt="Wagmi logo" />
         </a>   
-        </div>
-      <h1>Wagmi + Vite + React</h1>       
+      </div>
+      <h3>Wagmi + Vite + React</h3>  
+      <div className="card">
+        <p>Uses <a href="hhttps://wagmi.sh/">`Wagmi`</a> SDK</p>
+      </div>     
       {isConnected ? (
         <div>
           <WagmiAccount />
@@ -144,9 +150,11 @@ function App() {
 
   const CAWagmiSection = () => (
     <div className="app-card">
-      <h1>Arcana Auth+ CA + Wagmi + Vite + React </h1>
-      <a href="https://arcana.network" target="_blank">
+      <div>
+        <a href="https://arcana.network" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/82495837" className="logo" alt="Arcana logo" /></a> 
+        <h3 className="arcana-color">Arcana Auth+ CA + Wagmi + Vite + React </h3>
+      </div>
       <div className="card">
         <p>Uses <a href="https://www.npmjs.com/package/@arcana/ca-wagmi">`ca-wagmi`</a> SDK</p>
       </div>
